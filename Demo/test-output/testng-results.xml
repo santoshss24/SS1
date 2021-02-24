@@ -1,0 +1,711 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="32" passed="32" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-02-23T14:18:12 IST" name="Default suite" finished-at="2021-02-23T14:18:40 IST" duration-ms="28056">
+    <groups>
+    </groups>
+    <test started-at="2021-02-23T14:18:12 IST" name="Default test" finished-at="2021-02-23T14:18:40 IST" duration-ms="28056">
+      <class name="testcases.TC002">
+        <test-method is-config="true" signature="launchApp()[pri:0, instance:testcases.TC002@460d0a57]" started-at="2021-02-23T14:18:12 IST" name="launchApp" finished-at="2021-02-23T14:18:22 IST" duration-ms="9739" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApp -->
+        <test-method signature="addToCartButton()[pri:0, instance:testcases.TC002@460d0a57]" started-at="2021-02-23T14:18:22 IST" name="addToCartButton" finished-at="2021-02-23T14:18:25 IST" duration-ms="3441" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addToCartButton -->
+        <test-method is-config="true" signature="Takescreenshot(org.testng.ITestResult)[pri:0, instance:testcases.TC002@460d0a57]" started-at="2021-02-23T14:18:25 IST" name="Takescreenshot" finished-at="2021-02-23T14:18:25 IST" duration-ms="6" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=addToCartButton status=SUCCESS method=TC002.addToCartButton()[pri:0, instance:testcases.TC002@460d0a57] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Takescreenshot -->
+        <test-method signature="imageValidation()[pri:0, instance:testcases.TC002@460d0a57]" started-at="2021-02-23T14:18:25 IST" name="imageValidation" finished-at="2021-02-23T14:18:26 IST" duration-ms="720" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- imageValidation -->
+        <test-method is-config="true" signature="Takescreenshot(org.testng.ITestResult)[pri:0, instance:testcases.TC002@460d0a57]" started-at="2021-02-23T14:18:26 IST" name="Takescreenshot" finished-at="2021-02-23T14:18:26 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=imageValidation status=SUCCESS method=TC002.imageValidation()[pri:0, instance:testcases.TC002@460d0a57] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Takescreenshot -->
+        <test-method signature="itemsTextValidation(java.lang.String)[pri:0, instance:testcases.TC002@460d0a57]" started-at="2021-02-23T14:18:30 IST" name="itemsTextValidation" data-provider="getdata" finished-at="2021-02-23T14:18:31 IST" duration-ms="744" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Brocolli - 1 Kg]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- itemsTextValidation -->
+        <test-method is-config="true" signature="Takescreenshot(org.testng.ITestResult)[pri:0, instance:testcases.TC002@460d0a57]" started-at="2021-02-23T14:18:31 IST" name="Takescreenshot" finished-at="2021-02-23T14:18:31 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=itemsTextValidation status=SUCCESS method=TC002.itemsTextValidation(java.lang.String)[pri:0, instance:testcases.TC002@460d0a57] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Takescreenshot -->
+        <test-method signature="itemsTextValidation(java.lang.String)[pri:0, instance:testcases.TC002@460d0a57]" started-at="2021-02-23T14:18:31 IST" name="itemsTextValidation" data-provider="getdata" finished-at="2021-02-23T14:18:31 IST" duration-ms="305" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Cauliflower - 1 Kg]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- itemsTextValidation -->
+        <test-method is-config="true" signature="Takescreenshot(org.testng.ITestResult)[pri:0, instance:testcases.TC002@460d0a57]" started-at="2021-02-23T14:18:31 IST" name="Takescreenshot" finished-at="2021-02-23T14:18:31 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=itemsTextValidation status=SUCCESS method=TC002.itemsTextValidation(java.lang.String)[pri:0, instance:testcases.TC002@460d0a57] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Takescreenshot -->
+        <test-method signature="itemsTextValidation(java.lang.String)[pri:0, instance:testcases.TC002@460d0a57]" started-at="2021-02-23T14:18:31 IST" name="itemsTextValidation" data-provider="getdata" finished-at="2021-02-23T14:18:31 IST" duration-ms="303" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Cucumber - 1 Kg]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- itemsTextValidation -->
+        <test-method is-config="true" signature="Takescreenshot(org.testng.ITestResult)[pri:0, instance:testcases.TC002@460d0a57]" started-at="2021-02-23T14:18:31 IST" name="Takescreenshot" finished-at="2021-02-23T14:18:31 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=itemsTextValidation status=SUCCESS method=TC002.itemsTextValidation(java.lang.String)[pri:0, instance:testcases.TC002@460d0a57] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Takescreenshot -->
+        <test-method signature="itemsTextValidation(java.lang.String)[pri:0, instance:testcases.TC002@460d0a57]" started-at="2021-02-23T14:18:31 IST" name="itemsTextValidation" data-provider="getdata" finished-at="2021-02-23T14:18:31 IST" duration-ms="314" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Beetroot - 1 Kg]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- itemsTextValidation -->
+        <test-method signature="itemsTextValidation(java.lang.String)[pri:0, instance:testcases.TC002@460d0a57]" started-at="2021-02-23T14:18:31 IST" name="itemsTextValidation" data-provider="getdata" finished-at="2021-02-23T14:18:32 IST" duration-ms="292" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Carrot - 1 Kg]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- itemsTextValidation -->
+        <test-method is-config="true" signature="Takescreenshot(org.testng.ITestResult)[pri:0, instance:testcases.TC002@460d0a57]" started-at="2021-02-23T14:18:31 IST" name="Takescreenshot" finished-at="2021-02-23T14:18:31 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=itemsTextValidation status=SUCCESS method=TC002.itemsTextValidation(java.lang.String)[pri:0, instance:testcases.TC002@460d0a57] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Takescreenshot -->
+        <test-method is-config="true" signature="Takescreenshot(org.testng.ITestResult)[pri:0, instance:testcases.TC002@460d0a57]" started-at="2021-02-23T14:18:32 IST" name="Takescreenshot" finished-at="2021-02-23T14:18:32 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=itemsTextValidation status=SUCCESS method=TC002.itemsTextValidation(java.lang.String)[pri:0, instance:testcases.TC002@460d0a57] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Takescreenshot -->
+        <test-method signature="itemsTextValidation(java.lang.String)[pri:0, instance:testcases.TC002@460d0a57]" started-at="2021-02-23T14:18:32 IST" name="itemsTextValidation" data-provider="getdata" finished-at="2021-02-23T14:18:32 IST" duration-ms="301" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Tomato - 1 Kg]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- itemsTextValidation -->
+        <test-method is-config="true" signature="Takescreenshot(org.testng.ITestResult)[pri:0, instance:testcases.TC002@460d0a57]" started-at="2021-02-23T14:18:32 IST" name="Takescreenshot" finished-at="2021-02-23T14:18:32 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=itemsTextValidation status=SUCCESS method=TC002.itemsTextValidation(java.lang.String)[pri:0, instance:testcases.TC002@460d0a57] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Takescreenshot -->
+        <test-method signature="itemsTextValidation(java.lang.String)[pri:0, instance:testcases.TC002@460d0a57]" started-at="2021-02-23T14:18:32 IST" name="itemsTextValidation" data-provider="getdata" finished-at="2021-02-23T14:18:32 IST" duration-ms="331" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Beans - 1 Kg]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- itemsTextValidation -->
+        <test-method signature="itemsTextValidation(java.lang.String)[pri:0, instance:testcases.TC002@460d0a57]" started-at="2021-02-23T14:18:32 IST" name="itemsTextValidation" data-provider="getdata" finished-at="2021-02-23T14:18:33 IST" duration-ms="291" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Brinjal - 1 Kg]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- itemsTextValidation -->
+        <test-method is-config="true" signature="Takescreenshot(org.testng.ITestResult)[pri:0, instance:testcases.TC002@460d0a57]" started-at="2021-02-23T14:18:32 IST" name="Takescreenshot" finished-at="2021-02-23T14:18:32 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=itemsTextValidation status=SUCCESS method=TC002.itemsTextValidation(java.lang.String)[pri:0, instance:testcases.TC002@460d0a57] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Takescreenshot -->
+        <test-method is-config="true" signature="Takescreenshot(org.testng.ITestResult)[pri:0, instance:testcases.TC002@460d0a57]" started-at="2021-02-23T14:18:33 IST" name="Takescreenshot" finished-at="2021-02-23T14:18:33 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=itemsTextValidation status=SUCCESS method=TC002.itemsTextValidation(java.lang.String)[pri:0, instance:testcases.TC002@460d0a57] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Takescreenshot -->
+        <test-method signature="itemsTextValidation(java.lang.String)[pri:0, instance:testcases.TC002@460d0a57]" started-at="2021-02-23T14:18:33 IST" name="itemsTextValidation" data-provider="getdata" finished-at="2021-02-23T14:18:33 IST" duration-ms="283" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Capsicum]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- itemsTextValidation -->
+        <test-method is-config="true" signature="Takescreenshot(org.testng.ITestResult)[pri:0, instance:testcases.TC002@460d0a57]" started-at="2021-02-23T14:18:33 IST" name="Takescreenshot" finished-at="2021-02-23T14:18:33 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=itemsTextValidation status=SUCCESS method=TC002.itemsTextValidation(java.lang.String)[pri:0, instance:testcases.TC002@460d0a57] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Takescreenshot -->
+        <test-method signature="itemsTextValidation(java.lang.String)[pri:0, instance:testcases.TC002@460d0a57]" started-at="2021-02-23T14:18:33 IST" name="itemsTextValidation" data-provider="getdata" finished-at="2021-02-23T14:18:33 IST" duration-ms="290" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Mushroom - 1 Kg]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- itemsTextValidation -->
+        <test-method is-config="true" signature="Takescreenshot(org.testng.ITestResult)[pri:0, instance:testcases.TC002@460d0a57]" started-at="2021-02-23T14:18:33 IST" name="Takescreenshot" finished-at="2021-02-23T14:18:33 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=itemsTextValidation status=SUCCESS method=TC002.itemsTextValidation(java.lang.String)[pri:0, instance:testcases.TC002@460d0a57] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Takescreenshot -->
+        <test-method signature="itemsTextValidation(java.lang.String)[pri:0, instance:testcases.TC002@460d0a57]" started-at="2021-02-23T14:18:33 IST" name="itemsTextValidation" data-provider="getdata" finished-at="2021-02-23T14:18:34 IST" duration-ms="274" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Potato - 1 Kg]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- itemsTextValidation -->
+        <test-method is-config="true" signature="Takescreenshot(org.testng.ITestResult)[pri:0, instance:testcases.TC002@460d0a57]" started-at="2021-02-23T14:18:34 IST" name="Takescreenshot" finished-at="2021-02-23T14:18:34 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=itemsTextValidation status=SUCCESS method=TC002.itemsTextValidation(java.lang.String)[pri:0, instance:testcases.TC002@460d0a57] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Takescreenshot -->
+        <test-method signature="itemsTextValidation(java.lang.String)[pri:0, instance:testcases.TC002@460d0a57]" started-at="2021-02-23T14:18:34 IST" name="itemsTextValidation" data-provider="getdata" finished-at="2021-02-23T14:18:34 IST" duration-ms="292" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Pumpkin - 1 Kg]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- itemsTextValidation -->
+        <test-method is-config="true" signature="Takescreenshot(org.testng.ITestResult)[pri:0, instance:testcases.TC002@460d0a57]" started-at="2021-02-23T14:18:34 IST" name="Takescreenshot" finished-at="2021-02-23T14:18:34 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=itemsTextValidation status=SUCCESS method=TC002.itemsTextValidation(java.lang.String)[pri:0, instance:testcases.TC002@460d0a57] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Takescreenshot -->
+        <test-method signature="itemsTextValidation(java.lang.String)[pri:0, instance:testcases.TC002@460d0a57]" started-at="2021-02-23T14:18:34 IST" name="itemsTextValidation" data-provider="getdata" finished-at="2021-02-23T14:18:34 IST" duration-ms="295" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Corn - 1 Kg]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- itemsTextValidation -->
+        <test-method signature="itemsTextValidation(java.lang.String)[pri:0, instance:testcases.TC002@460d0a57]" started-at="2021-02-23T14:18:34 IST" name="itemsTextValidation" data-provider="getdata" finished-at="2021-02-23T14:18:34 IST" duration-ms="281" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Onion - 1 Kg]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- itemsTextValidation -->
+        <test-method is-config="true" signature="Takescreenshot(org.testng.ITestResult)[pri:0, instance:testcases.TC002@460d0a57]" started-at="2021-02-23T14:18:34 IST" name="Takescreenshot" finished-at="2021-02-23T14:18:34 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=itemsTextValidation status=SUCCESS method=TC002.itemsTextValidation(java.lang.String)[pri:0, instance:testcases.TC002@460d0a57] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Takescreenshot -->
+        <test-method is-config="true" signature="Takescreenshot(org.testng.ITestResult)[pri:0, instance:testcases.TC002@460d0a57]" started-at="2021-02-23T14:18:34 IST" name="Takescreenshot" finished-at="2021-02-23T14:18:34 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=itemsTextValidation status=SUCCESS method=TC002.itemsTextValidation(java.lang.String)[pri:0, instance:testcases.TC002@460d0a57] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Takescreenshot -->
+        <test-method signature="itemsTextValidation(java.lang.String)[pri:0, instance:testcases.TC002@460d0a57]" started-at="2021-02-23T14:18:34 IST" name="itemsTextValidation" data-provider="getdata" finished-at="2021-02-23T14:18:35 IST" duration-ms="280" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Apple - 1 Kg]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- itemsTextValidation -->
+        <test-method is-config="true" signature="Takescreenshot(org.testng.ITestResult)[pri:0, instance:testcases.TC002@460d0a57]" started-at="2021-02-23T14:18:35 IST" name="Takescreenshot" finished-at="2021-02-23T14:18:35 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=itemsTextValidation status=SUCCESS method=TC002.itemsTextValidation(java.lang.String)[pri:0, instance:testcases.TC002@460d0a57] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Takescreenshot -->
+        <test-method signature="itemsTextValidation(java.lang.String)[pri:0, instance:testcases.TC002@460d0a57]" started-at="2021-02-23T14:18:35 IST" name="itemsTextValidation" data-provider="getdata" finished-at="2021-02-23T14:18:35 IST" duration-ms="292" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Banana - 1 Kg]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- itemsTextValidation -->
+        <test-method is-config="true" signature="Takescreenshot(org.testng.ITestResult)[pri:0, instance:testcases.TC002@460d0a57]" started-at="2021-02-23T14:18:35 IST" name="Takescreenshot" finished-at="2021-02-23T14:18:35 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=itemsTextValidation status=SUCCESS method=TC002.itemsTextValidation(java.lang.String)[pri:0, instance:testcases.TC002@460d0a57] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Takescreenshot -->
+        <test-method signature="itemsTextValidation(java.lang.String)[pri:0, instance:testcases.TC002@460d0a57]" started-at="2021-02-23T14:18:35 IST" name="itemsTextValidation" data-provider="getdata" finished-at="2021-02-23T14:18:35 IST" duration-ms="278" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Grapes - 1 Kg]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- itemsTextValidation -->
+        <test-method signature="itemsTextValidation(java.lang.String)[pri:0, instance:testcases.TC002@460d0a57]" started-at="2021-02-23T14:18:35 IST" name="itemsTextValidation" data-provider="getdata" finished-at="2021-02-23T14:18:36 IST" duration-ms="287" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Mango - 1 Kg]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- itemsTextValidation -->
+        <test-method is-config="true" signature="Takescreenshot(org.testng.ITestResult)[pri:0, instance:testcases.TC002@460d0a57]" started-at="2021-02-23T14:18:35 IST" name="Takescreenshot" finished-at="2021-02-23T14:18:35 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=itemsTextValidation status=SUCCESS method=TC002.itemsTextValidation(java.lang.String)[pri:0, instance:testcases.TC002@460d0a57] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Takescreenshot -->
+        <test-method signature="itemsTextValidation(java.lang.String)[pri:0, instance:testcases.TC002@460d0a57]" started-at="2021-02-23T14:18:36 IST" name="itemsTextValidation" data-provider="getdata" finished-at="2021-02-23T14:18:36 IST" duration-ms="280" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Musk Melon - 1 Kg]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- itemsTextValidation -->
+        <test-method is-config="true" signature="Takescreenshot(org.testng.ITestResult)[pri:0, instance:testcases.TC002@460d0a57]" started-at="2021-02-23T14:18:36 IST" name="Takescreenshot" finished-at="2021-02-23T14:18:36 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=itemsTextValidation status=SUCCESS method=TC002.itemsTextValidation(java.lang.String)[pri:0, instance:testcases.TC002@460d0a57] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Takescreenshot -->
+        <test-method is-config="true" signature="Takescreenshot(org.testng.ITestResult)[pri:0, instance:testcases.TC002@460d0a57]" started-at="2021-02-23T14:18:36 IST" name="Takescreenshot" finished-at="2021-02-23T14:18:36 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=itemsTextValidation status=SUCCESS method=TC002.itemsTextValidation(java.lang.String)[pri:0, instance:testcases.TC002@460d0a57] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Takescreenshot -->
+        <test-method signature="itemsTextValidation(java.lang.String)[pri:0, instance:testcases.TC002@460d0a57]" started-at="2021-02-23T14:18:36 IST" name="itemsTextValidation" data-provider="getdata" finished-at="2021-02-23T14:18:36 IST" duration-ms="282" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Orange - 1 Kg]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- itemsTextValidation -->
+        <test-method signature="itemsTextValidation(java.lang.String)[pri:0, instance:testcases.TC002@460d0a57]" started-at="2021-02-23T14:18:36 IST" name="itemsTextValidation" data-provider="getdata" finished-at="2021-02-23T14:18:36 IST" duration-ms="279" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Pears - 1 Kg]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- itemsTextValidation -->
+        <test-method is-config="true" signature="Takescreenshot(org.testng.ITestResult)[pri:0, instance:testcases.TC002@460d0a57]" started-at="2021-02-23T14:18:36 IST" name="Takescreenshot" finished-at="2021-02-23T14:18:36 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=itemsTextValidation status=SUCCESS method=TC002.itemsTextValidation(java.lang.String)[pri:0, instance:testcases.TC002@460d0a57] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Takescreenshot -->
+        <test-method is-config="true" signature="Takescreenshot(org.testng.ITestResult)[pri:0, instance:testcases.TC002@460d0a57]" started-at="2021-02-23T14:18:36 IST" name="Takescreenshot" finished-at="2021-02-23T14:18:36 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=itemsTextValidation status=SUCCESS method=TC002.itemsTextValidation(java.lang.String)[pri:0, instance:testcases.TC002@460d0a57] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Takescreenshot -->
+        <test-method signature="itemsTextValidation(java.lang.String)[pri:0, instance:testcases.TC002@460d0a57]" started-at="2021-02-23T14:18:36 IST" name="itemsTextValidation" data-provider="getdata" finished-at="2021-02-23T14:18:37 IST" duration-ms="280" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Pomegranate - 1 Kg]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- itemsTextValidation -->
+        <test-method is-config="true" signature="Takescreenshot(org.testng.ITestResult)[pri:0, instance:testcases.TC002@460d0a57]" started-at="2021-02-23T14:18:37 IST" name="Takescreenshot" finished-at="2021-02-23T14:18:37 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=itemsTextValidation status=SUCCESS method=TC002.itemsTextValidation(java.lang.String)[pri:0, instance:testcases.TC002@460d0a57] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Takescreenshot -->
+        <test-method signature="itemsTextValidation(java.lang.String)[pri:0, instance:testcases.TC002@460d0a57]" started-at="2021-02-23T14:18:37 IST" name="itemsTextValidation" data-provider="getdata" finished-at="2021-02-23T14:18:37 IST" duration-ms="272" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Raspberry - 1/4 Kg]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- itemsTextValidation -->
+        <test-method signature="itemsTextValidation(java.lang.String)[pri:0, instance:testcases.TC002@460d0a57]" started-at="2021-02-23T14:18:37 IST" name="itemsTextValidation" data-provider="getdata" finished-at="2021-02-23T14:18:37 IST" duration-ms="274" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Strawberry - 1/4 Kg]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- itemsTextValidation -->
+        <test-method is-config="true" signature="Takescreenshot(org.testng.ITestResult)[pri:0, instance:testcases.TC002@460d0a57]" started-at="2021-02-23T14:18:37 IST" name="Takescreenshot" finished-at="2021-02-23T14:18:37 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=itemsTextValidation status=SUCCESS method=TC002.itemsTextValidation(java.lang.String)[pri:0, instance:testcases.TC002@460d0a57] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Takescreenshot -->
+        <test-method is-config="true" signature="Takescreenshot(org.testng.ITestResult)[pri:0, instance:testcases.TC002@460d0a57]" started-at="2021-02-23T14:18:37 IST" name="Takescreenshot" finished-at="2021-02-23T14:18:37 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=itemsTextValidation status=SUCCESS method=TC002.itemsTextValidation(java.lang.String)[pri:0, instance:testcases.TC002@460d0a57] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Takescreenshot -->
+        <test-method signature="itemsTextValidation(java.lang.String)[pri:0, instance:testcases.TC002@460d0a57]" started-at="2021-02-23T14:18:37 IST" name="itemsTextValidation" data-provider="getdata" finished-at="2021-02-23T14:18:38 IST" duration-ms="304" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Water Melon - 1 Kg]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- itemsTextValidation -->
+        <test-method is-config="true" signature="Takescreenshot(org.testng.ITestResult)[pri:0, instance:testcases.TC002@460d0a57]" started-at="2021-02-23T14:18:38 IST" name="Takescreenshot" finished-at="2021-02-23T14:18:38 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=itemsTextValidation status=SUCCESS method=TC002.itemsTextValidation(java.lang.String)[pri:0, instance:testcases.TC002@460d0a57] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Takescreenshot -->
+        <test-method signature="itemsTextValidation(java.lang.String)[pri:0, instance:testcases.TC002@460d0a57]" started-at="2021-02-23T14:18:38 IST" name="itemsTextValidation" data-provider="getdata" finished-at="2021-02-23T14:18:38 IST" duration-ms="285" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Almonds - 1/4 Kg]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- itemsTextValidation -->
+        <test-method signature="itemsTextValidation(java.lang.String)[pri:0, instance:testcases.TC002@460d0a57]" started-at="2021-02-23T14:18:38 IST" name="itemsTextValidation" data-provider="getdata" finished-at="2021-02-23T14:18:38 IST" duration-ms="307" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Pista - 1/4 Kg]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- itemsTextValidation -->
+        <test-method is-config="true" signature="Takescreenshot(org.testng.ITestResult)[pri:0, instance:testcases.TC002@460d0a57]" started-at="2021-02-23T14:18:38 IST" name="Takescreenshot" finished-at="2021-02-23T14:18:38 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=itemsTextValidation status=SUCCESS method=TC002.itemsTextValidation(java.lang.String)[pri:0, instance:testcases.TC002@460d0a57] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Takescreenshot -->
+        <test-method is-config="true" signature="Takescreenshot(org.testng.ITestResult)[pri:0, instance:testcases.TC002@460d0a57]" started-at="2021-02-23T14:18:38 IST" name="Takescreenshot" finished-at="2021-02-23T14:18:38 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=itemsTextValidation status=SUCCESS method=TC002.itemsTextValidation(java.lang.String)[pri:0, instance:testcases.TC002@460d0a57] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Takescreenshot -->
+        <test-method signature="itemsTextValidation(java.lang.String)[pri:0, instance:testcases.TC002@460d0a57]" started-at="2021-02-23T14:18:38 IST" name="itemsTextValidation" data-provider="getdata" finished-at="2021-02-23T14:18:38 IST" duration-ms="281" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Nuts Mixture - 1 Kg]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- itemsTextValidation -->
+        <test-method is-config="true" signature="Takescreenshot(org.testng.ITestResult)[pri:0, instance:testcases.TC002@460d0a57]" started-at="2021-02-23T14:18:38 IST" name="Takescreenshot" finished-at="2021-02-23T14:18:38 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=itemsTextValidation status=SUCCESS method=TC002.itemsTextValidation(java.lang.String)[pri:0, instance:testcases.TC002@460d0a57] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Takescreenshot -->
+        <test-method signature="itemsTextValidation(java.lang.String)[pri:0, instance:testcases.TC002@460d0a57]" started-at="2021-02-23T14:18:38 IST" name="itemsTextValidation" data-provider="getdata" finished-at="2021-02-23T14:18:39 IST" duration-ms="281" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Cashews - 1 Kg]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- itemsTextValidation -->
+        <test-method is-config="true" signature="Takescreenshot(org.testng.ITestResult)[pri:0, instance:testcases.TC002@460d0a57]" started-at="2021-02-23T14:18:39 IST" name="Takescreenshot" finished-at="2021-02-23T14:18:39 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=itemsTextValidation status=SUCCESS method=TC002.itemsTextValidation(java.lang.String)[pri:0, instance:testcases.TC002@460d0a57] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Takescreenshot -->
+        <test-method signature="itemsTextValidation(java.lang.String)[pri:0, instance:testcases.TC002@460d0a57]" started-at="2021-02-23T14:18:39 IST" name="itemsTextValidation" data-provider="getdata" finished-at="2021-02-23T14:18:39 IST" duration-ms="280" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Walnuts - 1/4 Kg]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- itemsTextValidation -->
+        <test-method is-config="true" signature="Takescreenshot(org.testng.ITestResult)[pri:0, instance:testcases.TC002@460d0a57]" started-at="2021-02-23T14:18:39 IST" name="Takescreenshot" finished-at="2021-02-23T14:18:39 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=itemsTextValidation status=SUCCESS method=TC002.itemsTextValidation(java.lang.String)[pri:0, instance:testcases.TC002@460d0a57] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Takescreenshot -->
+        <test-method is-config="true" signature="closeApp()[pri:0, instance:testcases.TC002@460d0a57]" started-at="2021-02-23T14:18:39 IST" name="closeApp" finished-at="2021-02-23T14:18:40 IST" duration-ms="1147" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeApp -->
+      </class> <!-- testcases.TC002 -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
